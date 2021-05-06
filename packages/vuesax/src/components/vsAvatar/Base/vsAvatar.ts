@@ -62,9 +62,7 @@ export default class VsAvatar extends VsComponent {
   }
 
   @Watch('$slots.text')
-  handleSlotText() {
-    console.log('cambio el slot')
-  }
+  handleSlotText() {}
 
   @Watch('badgeColor')
   handleBadgeColor() {

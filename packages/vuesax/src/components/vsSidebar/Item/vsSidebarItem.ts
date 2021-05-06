@@ -16,9 +16,8 @@ export default class VsSidebarItem extends VsComponent {
 
   @Watch('$parent.reduce')
   handleReduce(val: boolean) {
-    if (val) {
-      console.log('reduce')
-    }
+    // tslint:disable-next-line:no-empty
+    if (val) {}
   }
 
   handleClick() {

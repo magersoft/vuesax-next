@@ -150,7 +150,6 @@ export default class VsButton extends VsComponent {
             this.$router.push(this.to)
           } else if (this.href) {
             window.open(this.href, this.blank && '_blank' || '_self')
-            // console.log(this.blank && '_self')
           }
           this.$emit('click', evt)
         }
